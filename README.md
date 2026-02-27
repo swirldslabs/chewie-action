@@ -1,4 +1,4 @@
-# Rootly Alert Action
+# Chewie Action
 
 [![GitHub Super-Linter](https://github.com/PandasWhoCode/rootly-alert-action/actions/workflows/linter.yml/badge.svg)](https://github.com/super-linter/super-linter)
 ![CI](https://github.com/PandasWhoCode/rootly-alert-action/actions/workflows/ci.yml/badge.svg)
@@ -6,29 +6,17 @@
 [![CodeQL](https://github.com/PandasWhoCode/rootly-alert-action/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/PandasWhoCode/rootly-alert-action/actions/workflows/codeql-analysis.yml)
 [![Coverage](./badges/coverage.svg)](./badges/coverage.svg)
 
-A GitHub Action that creates alerts in Rootly using the Rootly REST API. Perfect
-for integrating incident management into your CI/CD workflows, monitoring
-deployments, and automating alert creation based on workflow events.
+A GitHub Action that enables API with the [Chewie](https://github.com/swirldslabs/chewie) GitHub application.
 
 ## Features
 
-- ✅ **Create Rootly alerts** from GitHub Actions workflows
-- ✅ **Flexible notification targets** - Users, Services, Groups, or Escalation
-  Policies
-- ✅ **Rich alert metadata** - External IDs, URLs, labels, and environment
-  associations
-- ✅ **Service integration** - Associate alerts with specific services and
-  groups
-- ✅ **Deduplication support** - Prevent duplicate alerts with custom keys
-- ✅ **Comprehensive testing** - 100% test coverage with robust error handling
+:bell: Under construction
 
 ## Quick Start
 
 ### Prerequisites
 
-- A [Rootly](https://rootly.com) account with API access
-- A Rootly API key (available in your Rootly dashboard under Settings → API
-  Keys)
+:bell: Under construction
 
 ### Basic Usage
 
