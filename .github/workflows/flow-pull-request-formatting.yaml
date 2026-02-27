@@ -24,6 +24,8 @@ on:
       - reopened
       - edited
       - synchronize
+      - assigned
+      - labeled
 
 defaults:
   run:
