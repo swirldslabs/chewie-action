@@ -1,12 +1,19 @@
-# In TypeScript actions, `dist/` is a special directory. When you reference
-# an action with the `uses:` property, `dist/index.js` is the code that will be
-# run. For this project, the `dist/index.js` file is transpiled from other
-# source files. This workflow ensures the `dist/` directory contains the
-# expected transpiled code.
+##
+# Copyright (C) 2023-2026 Swirlds Labs Inc.
 #
-# If this workflow is run from a feature branch, it will act as an additional CI
-# check and fail if the checked-in `dist/` directory does not match what is
-# expected from the build.
+# This software is the confidential and proprietary information of
+# Swirlds Labs Inc. ("Confidential Information"). You shall not
+# disclose such Confidential Information and shall use it only in
+# accordance with the terms of the license agreement you entered into
+# with Swirlds Labs Inc.
+#
+# SWIRLDS LABS MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF
+# THE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+# TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+# PARTICULAR PURPOSE, OR NON-INFRINGEMENT. SWIRLDS LABS SHALL NOT BE LIABLE FOR
+# ANY DAMAGES SUFFERED BY LICENSEE AS A RESULT OF USING, MODIFYING OR
+# DISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES.
+##
 name: Check Transpiled JavaScript
 
 on:
